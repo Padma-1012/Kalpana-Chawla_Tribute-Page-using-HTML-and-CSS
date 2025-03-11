@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute to Kalpana Chawla</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: linear-gradient(to right, #8B70AE, #705A9F); /* Dark lavender gradient */
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 900px;
+            background: rgba(230, 220, 250, 0.9); /* Lighter lavender shade */
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(8px);
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        h1 {
+            font-size: 50px;
+            font-weight: 600;
+            color: #5A287D; /* Deep purple */
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 24px;
+            color: #4A1850; /* Rich dark purple */
+        }
+
+        img {
+            width: 100%;
+            max-width: 230px;
+            border-radius: 10px;
+            margin: 15px 0;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        p {
+            color: #3D003D;
+            text-align: justify;
+            line-height: 1.7;
+            font-size: 16px;
+        }
+
+        .section {
+            margin: 25px 0;
+        }
+
+        .achievements p {
+            text-align: left;
+            font-size: 16px;
+            color: #3D003D;
+            margin-bottom: 8px;
+        }
+
+        .wiki-button {
+            display: inline-block;
+            background: #5A287D;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 16px;
+            margin-top: 10px;
+            transition: 0.3s;
+        }
+
+        .wiki-button:hover {
+            background: #4A1850;
+        }
+
+        footer {
+            margin-top: 30px;
+            font-size: 14px;
+            color: #4A1850;
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Kalpana Chawla</h1>
+        <img src="photo.jpg" alt="Kalpana Chawla">
+        <h2>First Indian Woman in Space</h2>
+        
+        <div class="section">
+            <h2>Biography</h2>
+            <p>Kalpana Chawla was born on March 17, 1962, in Karnal, India. Inspired by her fascination with flying, she pursued a career in aerospace engineering and eventually became an astronaut. Her journey from a small town in India to NASA remains an inspiration to millions.</p>
+        </div>
+
+        <div class="section">
+            <h2>Education</h2>
+            <p>She earned her Bachelor of Engineering degree in Aeronautical Engineering from Punjab Engineering College, India. Later, she moved to the United States for higher studies, completing a Master of Science degree in Aerospace Engineering from the University of Texas at Arlington, followed by a Ph.D. in Aerospace Engineering from the University of Colorado Boulder.</p>
+        </div>
+
+        <div class="section">
+            <h2>Career & NASA Missions</h2>
+            <p>Kalpana Chawla joined NASA in 1994 and became an astronaut in 1997. Her first mission was aboard Space Shuttle Columbia (STS-87), where she worked as a mission specialist. Her second and final mission, STS-107, ended in tragedy on February 1, 2003, when the shuttle disintegrated during re-entry.</p>
+        </div>
+
+        <div class="section achievements">
+            <h2>Achievements & Honors</h2>
+            <p>First woman of Indian origin to travel to space.</p>
+            <p>Awarded the NASA Space Flight Medal posthumously.</p>
+            <p>Received the Congressional Space Medal of Honor posthumously.</p>
+            <p>Several universities, institutions, and scholarships are named in her honor.</p>
+        </div>
+
+        <div class="section">
+            <h2>Passing & Legacy</h2>
+            <p>On February 1, 2003, Kalpana Chawla and her crew perished when Space Shuttle Columbia broke apart upon re-entry into Earth’s atmosphere. Her contributions to space exploration and her pioneering spirit continue to inspire future generations of astronauts and engineers.</p>
+            <a href="https://en.wikipedia.org/wiki/Kalpana_Chawla" target="_blank" class="wiki-button">Learn More on Wikipedia</a>
+        </div>
+
+        <footer>
+            <p>Tribute Page by <strong>Vecha Padma Sri Sai</strong> | &copy; 2024</p>
+        </footer>
+    </div>
+</body>
+</html>
